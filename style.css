@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #0F1726;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #EDE1D6;
+    background-color: #6C808C;
+}
+
+h2{
+    color: #EDE1D6;
+    background-color: #6C808C;
+}
+
+h3{
+    color: #EDE1D6;
+    background-color: #6C808C;
+}
+
+p{
+    color: #EDE1D6;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: #EDE1D6;
+    text-decoration: dashed;
+   
+}
+
+a:hover{
+    background-color: black;
+}
