@@ -14,7 +14,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;
-    background-color: #0000ff;
+    background-color: blue;
     text-align: center;
     width: 700px; 
     margin: auto;
@@ -26,73 +26,6 @@ body {
 
 main {
     min-width: 320px
-}
-
-ul {
-    display: inline;
-    color: white;
-    font-family: 'Dongle', sans-serif;
-    font-family: 'Lato', sans-serif;
-    background-color: blue;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 16em;
-    height: auto;
-    margin: auto;
-    border-radius: 5px;
-}
-
-p {
-    font-family: 'Dongle', sans-serif;
-    font-family: 'Lato', sans-serif;
-    background-color: blue;
-    color: #EDE1D6;
-    height: auto;
-    width: 14em;
-    margin: auto; 
-    border-radius: 5px;
-    padding: 5px;
-}
-
-
-.conteiner {
-    display: inline-flex;
-    align-items: center;
-    margin: 5px;
-}
-
-img {
-    margin: auto;
-}
-
-.shapes {
-    width: 25%;
-    height: 25%;
-    display: block;  
-}
-
-div {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.icons {
-    display: inline;
-    width: 3em;
-    height: 3em;
-    margin: 4px;
-}
-
-nav{
-    text-align: center;
-    margin: 2em;
-}
-
-a {
-    color: #EDE1D6;
-    text-decoration: none;  
-    align-items: center; 
-    padding: 10px;
 }
 
 .menu {
@@ -109,9 +42,131 @@ a {
     text-decoration: dashed;
 }
 
+
+ul {
+    display: block;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: blue;
+    width: 20em;
+    height: auto;
+    margin: 2% 4%;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 32px;
+    border: 50%;
+    size: 20px;
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    height: auto;
+    width: 14em;
+    margin: auto; 
+    margin-left: 15px;
+    margin-right: 250px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.resumo {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 12%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.sobre {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.program {
+    display: flex;
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+.tools {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+certification {
+
+}
+
+img {
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    display: block; 
+    margin-right: auto;
+}
+
+.shape_left {
+    margin-left: 20%;
+    margin-right: 2%;
+    width: 30%;
+    height: 30%;
+}
+
+.shape_right {
+    margin-left: 10px;
+    width: 30%;
+    height: 30%;
+}
+
+div {
+    text-align: center;
+    align-items: center;
+}
+
+.icons {
+    display: inline;
+    width: 3em;
+    height: 3em;
+    margin: 4px;
+}
+
+nav{
+    text-align: center;
+    margin: 2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;  
+    align-items: center; 
+    padding: 10px;
+}
+
+
 footer {
     background-color: black;
     text-align: center;
+}
+
+i {
+    color: white;
+    font-size: 3em;
+    margin: 4px;
 }
 
 

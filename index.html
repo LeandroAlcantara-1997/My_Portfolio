@@ -7,7 +7,8 @@
         <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
         <title>Meu portifólio</title>
         <link rel="stylesheet" href="style.css">
-    </head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        </head>
     <body>
         <header>
             <nav>
@@ -21,25 +22,26 @@
         </header>
             <main>
                 <h1 class="title">Hello World! 🌎 Welcome to my portfolio!</h1>
+                <div>
                     <img class="shapes" src="imagens/astronauta1.png" alt="ideias">
+                </div>
                 <h2 class="title" id="sobre">Sobre </h2>
-                    <div class="conteiner">
-                        <img class="shapes" src="imagens/astronauta2.png" alt="sobre">
-                        <p class="Pright">&nbsp; Sou Desenvolvedor de Software e estudante de Análise e desenvolvimento de sistemas pela Faculdade Impacta de Tecnologia. <br>
+                    <div class="sobre">
+                        <img class="shape_left" src="imagens/sobre.png" alt="sobre">
+                        <p class="Pright">&nbsp;Sou Desenvolvedor de Software e estudante de Análise e desenvolvimento de sistemas pela Faculdade Impacta de Tecnologia. <br>
                             &nbsp;Escolhi a área de desenvolvimento pois me traz satisfação construir soluções e fazer parte de um futuro onde o software vai facilitar a vida das pessoas que o utilizam.</p>
                     </div>
                 <h2 class="title">Resumo profissional</h2>
-                <div class="conteiner">
-                    <img class="shapes" src="imagens/experiencia_profissional.png" alt="resumo_profissional">
+                    <div class="resumo">
                         <ul>
                             <strong>Auxiliar de Escritório e TI – 08/2019 - 11/2020</strong>
-                        <li>Consultas em banco de dados baixa plataforma, análise de logs em máquinas Windows
-                            Server.
-                        </li>
-                        <li>Criação e manutenção de scripts de baixa complexidade para geração de massa de
-                            dados através da linguagem Java com SGBD SQL Server.
-                        </li>
-                    </ul>
+                            <li>Consultas em banco de dados baixa plataforma, análise de logs em máquinas Windows
+                                Server.
+                            </li>
+                            <li>Criação e manutenção de scripts de baixa complexidade para geração de massa de
+                                dados através da linguagem Java com SGBD SQL Server.
+                            </li>
+                        </ul>
                         <ul>
                             <strong>Estagiário Desenvolvedor de Software - 09/ 2021 - Atualmente</strong>
                             <li> Criação de scripts em Golang.</li>
@@ -47,35 +49,59 @@
                             <li> Teste de API 's com Postman.</li>
                             <li> Utilização de metodologia ágil Scrum com Jira</li>
                         </ul>
+                        <img class="shape_right" src="imagens/experiencia_profissional.png" alt="resumo_profissional">
                 </div>
-                <h2 class="title" id="skills">Skills 🛠️</h2>
-                    <h3 class="title">Programing languages</h3>
+                <h2 class="title" id="skills">Skills</h2>
+                <div class="program">
+                    <img class="shape_left" src="imagens/programming.png" alt="programming">
                     <div>
-                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Logo Golang">
-                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java">
-                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Logo Python">
+                        <h3 class="title">Programing languages</h3>
+                            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Logo Golang">
+                            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java">
+                            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Logo Python">
+                        <h3 class="title">Makup Languages</h3>
+                            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML5">
+                            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS3">
+                            <i class = "devicon-markdown-plain "> </i>
                     </div>
+                </div>
+                <div class="tools">
+                    <div>
                     <h3 class="title" >Frameworks</h3>
-                    <div>
                         <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" alt="Logo gradle">
-                        <img class="icons"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Logo Spring Boot">
                         <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Logo Apache Maven">
+                        <img class="icons"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Logo Spring Boot">
+                        <img class="icons" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Logo Google cloud platform" />
+                        <img class="icons" src="imagens/postman.svg" alt="Logo Postman">
+                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Logo Git">
                     <h3 class="title">SGBD's</h3>
-                        <img class="icons" src="https://cdn.iconscout.com/icon/free/png-64/sql-4-190807.png" alt="Logo SQLServer" width="40" height="40">
+                    <i class="devicon-microsoftsqlserver-plain" alt="Logo SQLServer"></i>
                         <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Logo PostgreSQL">
-                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL">                       
+                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo MySQL">  
+                    <h3 class="title">Sistemas Operacionais</h3>
+                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Logo Linux" />
+                        <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Logo Windows">
                     </div>
-                <h2 class="title" id="certificacoes">Certificações 📚</h2>
-                <img class="shapes" src="imagens/certificacao.png" alt="certificados">
-                <h2 class="title" id="projetos">Projetos 💻</h2>
-                <img class="shapes" src="imagens/foguete.png" alt="foguete">
+                    <img class="shape_right" src="imagens/tools.png" alt="tools">
+                </div> 
+                <div class="certification">                   
+                    <h2 class="title" id="certificacoes">Certificações</h2>
+                    <img class="shape_left" src="imagens/certificacao.png" alt="certificados">
+                    <!--<object data="certificados/Construindo uma API Rest de.pdf" type="application/pdf">
+                        <p>Seu navegador não tem um plugin pra PDF</p>
+                    </object>-->
+                </div>
+                <div>
+                    <h2 class="title" id="projetos">Projetos</h2>
+                    <img class="shape_right" src="imagens/foguete.png" alt="foguete">
+                </div>
         </main>
         <footer>
             <h2 class="title" id="contato">Contato</h2>
             <span>
                 <a class="icons" href="https://github.com/LeandroAlcantara-1997" target="_blank" rel="external"> <img class="icons"src="imagens/github_icon.png" alt="Logo Github"></a>
                 <a class="icons" href="https://www.linkedin.com/in/leandro-alcantara-pro" target="_blank" rel="external"> <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Logo Linkedin"></a>
-                <a class="icons" href="mailto:leandro1997silva97@gmail.com" target="_blank" rel="external"> <img class="icons" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="Logo Linkedin"></a>
+                <a class="icons" href="mailto:leandro1997silva97@gmail.com" target="_blank" rel="external"> <img class="icons" src="imagens/gmail.svg" alt="Logo Linkedin"></a>
                 <a class="icons" href="tel:11 970230377"> <img class="icons" src="imagens/whatsapp.png" alt="Logo Cellphone"></a>
             </span>
         </footer>
