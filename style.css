@@ -7,6 +7,7 @@ body {
     background-image: url("imagens/ceu_estrealdo1.jpg");
     border-radius: 100%;
     font-size: Arial, Helvetica, sans-serif;
+    margin: auto
 }
 
 .title {
@@ -17,15 +18,23 @@ body {
     background-color: blue;
     text-align: center;
     width: 700px; 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2em; 
     margin-top: 40px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;  
+    min-width: 250px; 
+    max-width: 70%; 
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 main {
-    min-width: 320px
+    min-width: 520px
 }
 
 .menu {
@@ -34,6 +43,7 @@ main {
     font-family: 'Dongle', sans-serif;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .menu:hover{
@@ -49,94 +59,117 @@ ul {
     font-family: 'Dongle', sans-serif;
     font-family: 'Lato', sans-serif;
     background-color: blue;
-    width: 20em;
     height: auto;
-    margin: 2% 4%;
+    width: 14em;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 5px;
-    text-align: center;
-    padding-left: 32px;
+    text-align: left;
+    align-items: center;
     border: 50%;
     size: 20px;
-    font-size: 22px;
+    font-size: 100%;
+    list-style-position: inside;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 p {
     font-family: 'Dongle', sans-serif;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 100%;
     background-color: blue;
     color: white;
     height: auto;
     width: 14em;
     margin: auto; 
-    margin-left: 15px;
-    margin-right: 250px;
+    padding: 10px;
     border-radius: 5px;
-    padding: 5px;
+    margin-left: 0px;
 }
 
 
 .resumo {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 18%;
-    margin-right: 12%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin: auto;
+    border: pink solid;
+    max-width: 70%;
+    flex-wrap: wrap;
 }
 
 .sobre {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 12%;
-    margin-right: 8%;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    max-width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 .program {
+    border: pink solid;
     display: flex;
-    margin-left: 0%;
-    margin-right: 50%;
+    max-width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
 }
+
+.program > div {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin: auto; 
+    min-width: 100px; 
+    max-width: 70%; 
+     
+}
+
+.tools > div {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    min-width: 100px; 
+    max-width: 70%; 
+} 
 
 .tools {
+    border: pink solid;
     display: flex;
-    margin-left: 10%;
-    margin-right: 15%;
+    max-width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
-certification {
-
+/*certification {
+}*/
+.certificacao {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    align-items: center;
+    border: pink solid;
+    flex-wrap: wrap;
+}
+object {
+    width: 400px;
+    height: 400px;
 }
 
 img {
     margin: auto;
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 25%;
     display: block; 
     margin-right: auto;
 }
 
-.shape_left {
-    margin-left: 20%;
-    margin-right: 2%;
-    width: 30%;
-    height: 30%;
+.img-div {
+    min-width: 200px;
 }
 
-.shape_right {
-    margin-left: 10px;
-    width: 30%;
-    height: 30%;
-}
-
-div {
-    text-align: center;
-    align-items: center;
-}
 
 .icons {
     display: inline;
