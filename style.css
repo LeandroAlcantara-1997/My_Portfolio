@@ -95,7 +95,6 @@ p {
     align-items: center;
     text-align: center;
     margin: auto;
-    border: pink solid;
     max-width: 70%;
     flex-wrap: wrap;
 }
@@ -110,7 +109,6 @@ p {
 }
 
 .program {
-    border: pink solid;
     display: flex;
     max-width: 70%;
     margin: auto;
@@ -136,7 +134,6 @@ p {
 } 
 
 .tools {
-    border: pink solid;
     display: flex;
     max-width: 70%;
     margin: auto;
@@ -150,7 +147,6 @@ p {
     margin: auto;
     max-width: 70%;
     align-items: center;
-    border: pink solid;
     flex-wrap: wrap;
 }
 object {
@@ -167,7 +163,7 @@ img {
 }
 
 .img-div {
-    min-width: 200px;
+    min-width: 270px;
 }
 
 
