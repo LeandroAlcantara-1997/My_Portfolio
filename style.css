@@ -52,7 +52,6 @@ main {
     text-decoration: dashed;
 }
 
-
 ul {
     display: block;
     color: white;
@@ -86,9 +85,7 @@ p {
     margin: auto; 
     padding: 10px;
     border-radius: 5px;
-    margin-left: 0px;
 }
-
 
 .resumo {
     display: flex;
@@ -140,8 +137,6 @@ p {
     flex-wrap: wrap;
 }
 
-/*certification {
-}*/
 .certificacao {
     display: flex;
     margin: auto;
@@ -149,9 +144,11 @@ p {
     align-items: center;
     flex-wrap: wrap;
 }
+
 object {
     width: 400px;
-    height: 400px;
+    height: 330px;
+    margin: auto;
 }
 
 img {
@@ -185,7 +182,6 @@ a {
     align-items: center; 
     padding: 10px;
 }
-
 
 footer {
     background-color: black;
