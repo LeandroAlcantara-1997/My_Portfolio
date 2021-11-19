@@ -4,36 +4,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
         <title>Meu portifólio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         </head>
     <body>
         <header>
             <nav>
                 <a class="menu" href="#sobre">Sobre</a>
+                <a class='menu' href="#resumo">Resumo Profissional</a>
                 <a class="menu" href="#skills">Skills</a>
                 <a class="menu" href="#certificacoes">Certificações</a>
                 <a class="menu" href="#projetos">Projetos</a>
                 <a class="menu" href="#contato">Contato</a>
-                
             </nav>
         </header>
             <main>
-                <h1 class="title">Hello World! 🌎 Welcome to my portfolio!</h1>
+                <h1 class="title">Hello World! Welcome to my portfolio!</h1>
                 <div>
-                    <img class="img-div" src="imagens/astronauta1.png" alt="ideias">
+                    <img class="img-div" src="../imagens/astronauta1.png" alt="ideias">
                 </div>
-                <h2 class="title" id="sobre">Sobre </h2>
+                <h2 class="title" id="sobre">Sobre</h2>
                     <div class="sobre">
-                        <img class="img-div" src="imagens/sobre.png" alt="sobre">
+                        <img class="img-div" src="../imagens/sobre.png" alt="sobre">
                         <p class="Pright">&nbsp;Sou Desenvolvedor de Software e estudante de Análise e desenvolvimento de sistemas pela Faculdade Impacta de Tecnologia. <br>
                             &nbsp;Escolhi a área de desenvolvimento pois me traz satisfação construir soluções e fazer parte de um futuro onde o software vai facilitar a vida das pessoas que o utilizam.</p>
                     </div>
-                <h2 class="title">Resumo profissional</h2>
+                <h2 class="title" id="resumo">Resumo profissional</h2>
                     <div class="resumo">
-                        <ul>
+                        <ul id="ul">
                             <strong>Auxiliar de Escritório e TI – 08/2019 - 11/2020</strong>
                             <li>Consultas em banco de dados baixa plataforma, análise de logs em máquinas Windows
                                 Server.
@@ -49,11 +49,11 @@
                             <li>Teste de API 's com Postman.</li>
                             <li>Utilização de metodologia ágil Scrum com Jira</li>
                         </ul>
-                        <img class="img-div" src="imagens/experiencia_profissional.png" alt="resumo_profissional">
+                        <img class="img-div" src="../imagens/experiencia_profissional.png" alt="resumo_profissional">
                 </div>
                 <h2 class="title" id="skills">Skills</h2>
-                <div class="program">
-                    <img class="img-div" src="imagens/programming.png" alt="programming">
+                <div class="program" id="program" onload="animationRobo()">
+                    <img class="img-div" src="../imagens/programming.png" alt="programming">
                     <div>
                         <h3 class="title">Programing languages</h3>
                             <abbr title="Golang"><img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Logo Golang"></abbr>
@@ -73,7 +73,7 @@
                         <abbr title="Apache Maven"><img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="Logo Apache Maven"></abbr>
                         <abbr title="Spring Boot"><img class="icons"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Logo Spring Boot"></abbr>
                         <abbr title="Google Cloud Platform"><img class="icons" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Logo Google cloud platform" /></abbr>
-                        <abbr title="Postman"><img class="icons" src="imagens/postman.svg" alt="Logo Postman"></abbr>
+                        <abbr title="Postman"><img class="icons" src="../imagens/postman.svg" alt="Logo Postman"></abbr>
                         <abbr title="Git"><img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Logo Git"></abbr>
                     <h3 class="title">SGBD's</h3>
                     <abbr title="SQL Server"><i class="devicon-microsoftsqlserver-plain" alt="Logo SQLServer"></i></abbr>
@@ -83,30 +83,32 @@
                         <abbr title="Linux"><img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Logo Linux" /></abbr>
                         <abbr title="Windows"><img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Logo Windows"></abbr>
                     </div>
-                    <img class="img-div" src="imagens/tools.png" alt="tools">
+                    <img class="img-div" src="../imagens/tools.png" alt="tools">
                 </div> 
                 <h2 class="title" id="certificacoes">Certificações</h2>
                 <div class="certificacao"> 
-                    <img class="img-div" src="imagens/certificacao.png" alt="certificados">                  
+                    <img class="img-div" src="../imagens/certificacao.png" alt="certificados">                  
                     <div>
-                        <object data="certificados/Construindo uma API Rest de.pdf"    type="application/pdf">
+                        <object data="../certificados/Construindo uma API Rest de.pdf" type="application/pdf">
                             <p>Seu navegador não tem um plugin pra PDF</p>
                         </object>
                     </div>
                 </div>
                 <div>
                     <h2 class="title" id="projetos">Projetos</h2>
-                    <img class="img-div" src="imagens/foguete.png" alt="foguete">
+                    <img class="img-div" src="../imagens/foguete.png" alt="foguete">
                 </div>
-        </main>
+                <svg> </svg>
+        </main> 
         <footer>
             <h2 class="title" id="contato">Contato</h2>
             <span>
-                <abbr title="GitHub"><a class="icons" href="https://github.com/LeandroAlcantara-1997" target="_blank" rel="external"> <img class="icons"src="imagens/github_icon.png" alt="Logo Github"></a></abbr>
+                <abbr title="GitHub"><a class="icons" href="https://github.com/LeandroAlcantara-1997" target="_blank" rel="external"> <img class="icons"src="../imagens/github_icon.png" alt="Logo Github"></a></abbr>
                 <abbr title="Linkedin"><a class="icons" href="https://www.linkedin.com/in/leandro-alcantara-pro" target="_blank" rel="external"> <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Logo Linkedin"></a></abbr>
-                <abbr title="Gmail"><a class="icons" href="mailto:leandro1997silva97@gmail.com" target="_blank" rel="external"> <img class="icons" src="imagens/gmail.svg" alt="Logo Linkedin"></a></abbr>
-                <abbr title="Telefone"><a class="icons" href="tel:11 970230377"> <img class="icons" src="imagens/whatsapp.png" alt="Logo Cellphone"></a></abbr>
+                <abbr title="Gmail"><a class="icons" href="mailto:leandro1997silva97@gmail.com" target="_blank" rel="external"> <img class="icons" src="../imagens/gmail.svg" alt="Logo Linkedin"></a></abbr>
+                <abbr title="Telefone"><a class="icons" href="tel:11 970230377"> <img class="icons" src="../imagens/whatsapp.png" alt="Logo Cellphone"></a></abbr>
             </span>
         </footer>
+        <script type="text/javascript" src="../script/script.js"></script>
     </body>
-</html>
+</html> 
