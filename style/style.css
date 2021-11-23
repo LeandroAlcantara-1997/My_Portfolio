@@ -13,12 +13,6 @@ body {
     margin: auto;
 }
 
-#loading {
-    align-items: center;
-    text-align: center;
-    margin: auto;;
-}
-
 .title {
     font-family: 'Dongle', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -201,6 +195,9 @@ svg#freepik_stories-rocket:not(.animated) .animable {opacity: 0;}svg#freepik_sto
 
 /*astronauta*/
 svg#freepik_stories-innovation:not(.animated) .animable {opacity: 0;}svg#freepik_stories-innovation.animated #freepik--Clock--inject-41 {animation: 6s Infinite  linear spin;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--gears-2--inject-41 {animation: 6s Infinite  linear spin;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--location-symbol--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--robotic-arm--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Mobile--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Box--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Character--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--light-bulb--inject-41 {animation: 2.8s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) fadeIn,6s Infinite  linear floating;animation-delay: 0s,2.8s;}svg#freepik_stories-innovation.animated #freepik--gears-1--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}         @keyframes spin {             from {                 transform: rotate(0);               }               to {                 transform: rotate(360deg);               }         }                 @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }                    @keyframes fadeIn {                0% {                    opacity: 0;                }                100% {                    opacity: 1;                }            }
+
+/*Resumo*/
+svg#freepik_stories-deconstructed-robot:not(.animated) .animable {opacity: 0;}svg#freepik_stories-deconstructed-robot.animated #freepik--Robot--inject-51 {animation: 6s Infinite  linear floating;animation-delay: 0s;}            @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }        .animator-hidden { display: none; }
 
 i {
     color: white;
