@@ -116,52 +116,38 @@ p {
     flex-wrap: wrap;
 }
 
+div {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    min-width: 100px; 
+    max-width: 70%; 
+}
 .program {
     display: flex;
-    max-width: 70%;
     margin: auto;
     flex-wrap: wrap;
 }
-
-.program > div {
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    margin: auto; 
-    min-width: 100px; 
-    max-width: 70%; 
-     
-}
-
-.tools > div {
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    min-width: 100px; 
-    max-width: 70%; 
-} 
 
 .tools {
     display: flex;
-    max-width: 70%;
     margin: auto;
     flex-wrap: wrap;
 }
 
+/*tools*/
+svg#freepik_stories-mind-map:not(.animated) .animable {opacity: 0;}svg#freepik_stories-mind-map.animated #freepik--Character--inject-110 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;animation-delay: 0s;}svg#freepik_stories-mind-map.animated #freepik--mind-map--inject-110 {animation: 3.0s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp,3s Infinite  linear floating;animation-delay: 0s,3s;}            @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }
 .contato{
     max-width: 100%;
-    margin: auto; 
-    align-items: center;
-    text-align: center;
 }
 
 .certificacao {
     display: flex;
-    margin: auto;
-    max-width: 70%;
-    align-items: center;
     flex-wrap: wrap;
 }
+
+/*certificado*/
+svg#freepik_stories-certification:not(.animated) .animable {opacity: 0;}svg#freepik_stories-certification.animated #freepik--Plant--inject-3 {animation: 2.8s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp,3s Infinite  linear floating;animation-delay: 0s,2.8s;}            @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }        .animator-hidden { display: none; }
 
 object {
     width: 400px;
@@ -171,8 +157,8 @@ object {
 
 img {
     margin: auto;
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     display: block; 
     margin-right: auto;
 }
@@ -183,15 +169,15 @@ img {
 
 svg {
     min-width: 270px;
-    margin: auto;
-    width: 25%;
-    height: 25%;
-    display: block; 
-    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto; 
+    min-width: 270px;
 }
 
-
-.icons {
+/*program*/
+svg#freepik_stories-deconstructed-robot:not(.animated) .animable {opacity: 0;}svg#freepik_stories-deconstructed-robot.animated #freepik--background-simple--inject-55 {animation: 2.9s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp,3s Infinite  linear floating;animation-delay: 0s,2.9s;}svg#freepik_stories-deconstructed-robot.animated #freepik--code-2--inject-55 {animation: 2.7s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp,3s Infinite  linear floating;animation-delay: 0s,2.7s;}svg#freepik_stories-deconstructed-robot.animated #freepik--code-1--inject-55 {animation: 2.9s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp,3s Infinite  linear floating;animation-delay: 0s,2.9s;}            @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }        .icons {
     display: inline;
     width: 3em;
     height: 3em;
@@ -210,39 +196,16 @@ a {
     padding: 10px;
 }
 
-footer {
-    background-color: black;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-}
+/*Foguete*/
+svg#freepik_stories-rocket:not(.animated) .animable {opacity: 0;}svg#freepik_stories-rocket.animated #freepik--Smoke--inject-20 {animation: 3s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-rocket.animated #freepik--Rocket--inject-20 {animation: 3s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-rocket.animated #freepik--Stars--inject-20 {animation: 3s Infinite  linear floating;animation-delay: 0s;}            @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }  
+
+/*astronauta*/
+svg#freepik_stories-innovation:not(.animated) .animable {opacity: 0;}svg#freepik_stories-innovation.animated #freepik--Clock--inject-41 {animation: 6s Infinite  linear spin;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--gears-2--inject-41 {animation: 6s Infinite  linear spin;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--location-symbol--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--robotic-arm--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Mobile--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Box--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--Character--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}svg#freepik_stories-innovation.animated #freepik--light-bulb--inject-41 {animation: 2.8s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) fadeIn,6s Infinite  linear floating;animation-delay: 0s,2.8s;}svg#freepik_stories-innovation.animated #freepik--gears-1--inject-41 {animation: 6s Infinite  linear floating;animation-delay: 0s;}         @keyframes spin {             from {                 transform: rotate(0);               }               to {                 transform: rotate(360deg);               }         }                 @keyframes floating {                0% {                    opacity: 1;                    transform: translateY(0px);                }                50% {                    transform: translateY(-10px);                }                100% {                    opacity: 1;                    transform: translateY(0px);                }            }                    @keyframes fadeIn {                0% {                    opacity: 0;                }                100% {                    opacity: 1;                }            }
 
 i {
     color: white;
     font-size: 3em;
     margin: 4px;
 }
-
-svg#freepik_stories-deconstructed-robot:not(.animated) .animable {
-    opacity: 0;}svg#freepik_stories-deconstructed-robot.animated #freepik--code-2--inject-54 {
-        animation: 6s Infinite  linear floating;animation-delay: 0s;
-    }
-    svg#freepik_stories-deconstructed-robot.animated #freepik--code-1--inject-54 {
-        animation: 6s Infinite  linear floating;animation-delay: 0s;
-    }            
-    @keyframes floating {
-        0% {                    
-            opacity: 1;                    
-            transform: translateY(0px);                
-}                
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-       opacity: 1;
-       transform: translateY(0px);}   
-        }
-/*D1D1E9
-#FF1A05
-#F76419*/
+/*#F76419*/
 

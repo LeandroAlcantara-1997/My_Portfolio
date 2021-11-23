@@ -8,4 +8,7 @@
 * **Projetos já finalizados;** 
 * **Certificações consquistadas.**
 
+# **<a class="menu" href="https://leandroalcantara-1997.github.io/My_Portfolio/html/index.html">DEPLOY DO PROJETO</a>**
+
 <img src="imagens/construcao.svg" >
+
